@@ -1,8 +1,13 @@
-import './App.css';
+import './App.css'
+import {WebHeader} from './WebHeader'
+import {Home} from './Home'
 
 function App() {
   return (
-    "hi"
+    <>
+    <WebHeader/>
+    <Home/>
+    </>
   );
 }
 
