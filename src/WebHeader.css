@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*this is for the entire header which includes the NavBar component*/
+header{
+    background-color: #0B0B0D;
+    color: #DDA74F;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0.75rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    z-index: 999;
+}
+
+#CompanyHeader{
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5rem;
+
+}
