@@ -12,7 +12,7 @@ export function NavBar(){
             <ul id = "navBar"> 
                 <li><a href = "">HOME</a></li>
                 <li><a href = "">CONTACT ME</a></li>
-                <li><a href = "">GALLERY</a></li>
+                <li id = "Gallery"><a href = "">GALLERY</a></li>
             </ul> 
         </div>
     </nav>

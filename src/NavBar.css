@@ -1,6 +1,7 @@
 
 nav{
  font-size: 1.5rem;
+ background-image: linear-gradient(#0B0B0D, #67041d);
 }
 
 
@@ -45,6 +46,10 @@ nav{
 
     #MenuOff{
         display: none;
+    }
+
+    #Gallery{
+        padding-bottom: 2rem;
     }
 
 }
