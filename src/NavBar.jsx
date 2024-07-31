@@ -7,12 +7,12 @@ export function NavBar(){
 
     return(
     <nav>
-        <div id = "Menu" onClick = {() => {console.log('hi'); setToggled(!Toggled)}}> Menu</div>
+        <div id = "Menu" onClick = {() => {console.log('hi'); setToggled(!Toggled)}}> MENU</div>
         <div id = {Toggled ? "MenuOn" : "MenuOff"}>
             <ul id = "navBar"> 
-                <li><a  href = "">HOME</a></li>
-                <li><a href = "">GALLERY</a></li>
-                <li><a href = "">CONTACT US</a></li>
+                <li><a href = "">HOME</a></li>
+                <li><a href = "">CONTACT ME</a></li>
+                <li id = "Gallery"><a href = "">GALLERY</a></li>
             </ul> 
         </div>
     </nav>

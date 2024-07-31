@@ -4,11 +4,10 @@
 /*this is for the entire header which includes the NavBar component*/
 header{
     background-color: #0B0B0D;
-    color: #DDA74F;
+    color: #edb864;
     margin: 0;
     position: fixed;
     width: 100%;
-    padding-bottom: 0.75rem;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     z-index: 999;
@@ -18,5 +17,30 @@ header{
     text-align: center;
     font-style: italic;
     font-size: 2.5rem;
+    display: grid;
+    grid-template-columns: [logoStart] 20vw [NameStart] auto [NameEnd] 20vw [SpacerEnd];
+    justify-content: space-between;
+    justify-items: center;
+    column-gap: 5vw;
 
+}
+
+#Logo{
+    width: 7rem;
+    height: 7rem;
+    grid-row: 1;
+    margin-top: 1rem;
+    align-self:top;
+    max-width: 19vw;
+    max-height: 19vw;
+
+}
+
+#CompanyName{
+    grid-row: 1;
+    align-self: center;
+}
+
+#Spacer{
+    grid-row: 1;
 }
