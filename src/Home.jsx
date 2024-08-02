@@ -5,8 +5,8 @@ export function Home(){
     return(
         <div id = "For-Pad">
             <div id = "Home">
-                <h2 id = "Statement">Are you ready to turn your everyday <br/> spending into free flights?</h2>
-                <section class = "BigDraw">
+                <h1 id = "Statement">Are you ready to turn your everyday <br/> spending into flights?</h1>
+                <section className = "BigDraw">
                     <div id = "Learn">
                         <h2>Learn</h2>
                         <hr></hr>
