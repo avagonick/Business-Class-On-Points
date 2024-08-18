@@ -3,7 +3,10 @@
 footer{
     padding-top:0.8rem;
     padding-bottom:0.5rem;
-    color: #283618;
+}
+
+#Footer {
+    background-color: #283618;
 }
 
 #FooterContainer{

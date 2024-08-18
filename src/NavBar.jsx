@@ -11,7 +11,7 @@ export function NavBar(){
                 <li><a href = "#For-Pad">Home</a></li>
                 <li><a href = "#GetStarted">Get Started</a></li>
                 <li><a href = "#AboutMe">About Me</a></li>
-                <li id = "Gallery"><a href = "">Gallery</a></li>
+                <li><a href = "#Gallery">Gallery</a></li>
             </ul> 
         </div>
     </nav>

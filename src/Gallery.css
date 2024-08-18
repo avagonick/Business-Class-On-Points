@@ -1,0 +1,38 @@
+#Gallery {
+    color: #283618;
+    background-color: #B7B7A4;
+    padding-bottom: 6rem;
+}
+
+.image-gallery-left-nav, .image-gallery-right-nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Example: semi-transparent background */
+    width: 100px; /* Adjust arrow size */
+    height: 50px;
+}
+
+.image-gallery-icon {
+    width: 100px; /* Adjust arrow icon size */
+    height: 10px;
+    fill: #fff; /* Change arrow color */
+}
+
+.image-gallery-slide img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.image-gallery-slide-wrapper {
+    height: 100px; 
+    
+}
+
+.image-gallery-slide img {
+    max-height: 100%; 
+    max-width: 100%; 
+    object-fit: contain; 
+}
+
+.image-gallery-slide-wrapper {
+    height: 500px; 
+    overflow: hidden; 
+}

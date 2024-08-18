@@ -4,6 +4,7 @@ import {Home} from './Home'
 import {GetStarted} from './GetStarted'
 import {Footer} from './Footer'
 import {AboutMe} from './AboutMe'
+import { Gallery } from './Gallery'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Home/>
     <GetStarted/>
     <AboutMe/>
+    <Gallery/>
     <Footer/>
     </>
   );

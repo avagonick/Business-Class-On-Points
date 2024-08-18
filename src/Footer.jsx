@@ -2,7 +2,7 @@ import './Footer.css'
 
 export function Footer(){
 return (
-<footer>
+<footer id="Footer">
     <div id = "FooterContainer">
         <div><a href = "" target= "_blank" id = "CreditForm">Inquiry Form</a></div>
         <div className = "Sep">|</div>
