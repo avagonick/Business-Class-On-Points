@@ -2,7 +2,7 @@ import './AboutMe.css';
 
 export function AboutMe() {
     return (
-        <div id="AboutMe">
+        <div id="AboutMe">                           
             <h3 id="Test">David Pham</h3>
             <div class="split-container">
                  <div class="right-box">

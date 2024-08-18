@@ -30,3 +30,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#photo {
+  width: 100%;
+  height: auto; 
+  max-width: 300rem; 
+}

@@ -1,4 +1,5 @@
 import "./Home.css"
+import image from './Images/Logo.png'
 
 export function Home(){
     console.log("Home component rendered");
@@ -33,6 +34,7 @@ export function Home(){
                         </section>
                     </div>
                     <div class="right-photo">
+                        <img src={image} id="photo"/>
                     </div>
                 </div>
             </div>

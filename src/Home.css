@@ -98,6 +98,7 @@ hr{
 .split-container {
     display: flex;
     flex-direction: row; 
+    flex-wrap: wrap;
 }
 
 .individualBox {
@@ -106,4 +107,13 @@ hr{
 
 .individualBox:hover {
     transform: scale(1.05); 
+}
+
+#photo {
+  width: 100%;
+  height: auto;
+  max-width: 100rem;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 15px; 
 }
