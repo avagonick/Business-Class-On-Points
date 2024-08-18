@@ -48,3 +48,11 @@ hr{
 .Intro {
     padding-left: 1rem;
 }
+
+.HuyPham {
+    transition: transform 0.3s ease; 
+}
+
+.HuyPham:hover {
+    transform: scale(1.05); 
+}
