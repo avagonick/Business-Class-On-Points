@@ -3,10 +3,11 @@
 footer{
     padding-top:0.8rem;
     padding-bottom:0.5rem;
+    color: #283618;
 }
 
 #FooterContainer{
-    color: #edb864;
+    color: #B7B7A4;
     display: flex;
     font-size: 0.9rem;
     justify-content: center;
@@ -19,12 +20,12 @@ footer{
 }
 
 #CopyWrite{
-    color: #edb864;
+    color: #B7B7A4;
     text-align: center;
     font-size: 0.8rem;
 }
 
 #CreditForm{
-    color: #edb864;
+    color: #B7B7A4;
     text-decoration: none;
 }

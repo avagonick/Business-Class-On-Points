@@ -6,7 +6,6 @@ export function WebHeader(){
     return(
     <header>
         <div id ="CompanyHeader">
-            <img id = "Logo" src= {logo} alt="Company Logo"/>
                 <h1 id = "CompanyName">  Business Class On Points</h1>
             <div id = "Spacer"></div>
         </div>

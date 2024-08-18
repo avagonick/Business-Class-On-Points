@@ -1,9 +1,8 @@
 
 nav{
  font-size: 1.3rem;
- background-image: linear-gradient(#0B0B0D, #67041d);
+ /* background-image: linear-gradient(#283618,#B7B7A4); */
 }
-
 
 #navBar{
     list-style: none;
@@ -12,7 +11,7 @@ nav{
 }
 
 #navBar a{
-    color: #edb864;
+    color: #B7B7A4;
     text-decoration: none;
     padding: 15px;
 }

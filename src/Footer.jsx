@@ -8,7 +8,7 @@ return (
         <div className = "Sep">|</div>
         <div id = "PhoneNumber"> Phone Number</div>
         <div className = "Sep">|</div>
-        <div id = "MadeBy">Developed by Ava, Lilly, and Max Gonick</div>
+        <div id = "MadeBy">Developed by Ava, Lillian, and Max Gonick</div>
     </div>
     <div id = "CopyWrite">&#169;2024 Business Class On Points</div>
 </footer>

@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 #GetStarted{
-    padding-top: 3rem;
-    background-color: rgba(103, 4, 29);
+    background-color: #B7B7A4;
     color: #FFFFd5;
     scroll-margin: 10rem;
+    padding-bottom: 6rem;
 }
 
 #StartedHeader{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    color: #FFFFd5;
+    color: #283618;
     text-align: center;
     font-size: 2rem;
     padding-bottom: 1rem;
@@ -25,27 +25,31 @@
 
 .Steps{
     width: 15rem;
-    background-color:#FFFFd5;
+    background-color:#F0EFEB;
     margin: 1.5rem;
     text-align: center;
     padding-bottom: 0.5rem;
     border-radius: 25px;
+    width: 300px;
+
 }
 
 .Number{
-    color: rgba(103, 4, 29);
+    color: #283618;
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 2.75rem;
+    text-align: left;
+    padding-left: 1.5rem;
 }
 
 .Info{
-    color: rgba(103, 4, 29);
+    color: #283618;
     padding: 0.5rem;
 }
 
 #form{
     text-decoration: none;
-    color: rgba(103, 4, 29);
+    color: #283618;
     font-weight: bold;
 }
 
@@ -62,4 +66,17 @@
     .Steps{
         height: auto !important;
     }
+}
+
+.Steps {
+    transition: transform 0.3s ease; 
+}
+
+.Steps:hover {
+    transform: scale(1.05); 
+}
+
+.Test
+{
+
 }
