@@ -6,6 +6,7 @@ export function GetStarted(){
 
     /*This allows for the two different flex boxes to always have the same size components so that they update together*/
     const TopRef = useRef(null)
+    const SecondRow = useRef(null)
     const BottomRef1 = useRef(null)
     const BottomRef2 = useRef(null)
     const [dimensions, setDimensions] = useState({width:0, height:0});
@@ -24,11 +25,13 @@ export function GetStarted(){
     },[]);
 
     useEffect(() => {
-        if (BottomRef1.current && BottomRef2.current && window.innerWidth > 700) {
+        if (BottomRef1.current && BottomRef2.current && SecondRow.current && window.innerWidth > 700) {
             BottomRef1.current.style.width = `${dimensions.width}px`;
             BottomRef1.current.style.height = `${dimensions.height}px`;
             BottomRef2.current.style.width = `${dimensions.width}px`;
             BottomRef2.current.style.height = `${dimensions.height}px`;
+            SecondRow.current.style.width = `${dimensions.width}px`;
+            SecondRow.current.style.height = `${dimensions.height}px`;
         }
         if (BottomRef1.current && BottomRef2.current && window.innerWidth <=  700){
             BottomRef1.current.style.width = `${dimensions.width}px`;
@@ -55,7 +58,7 @@ export function GetStarted(){
                     <hr></hr>
                     <div className = "Info">Please email me at <b>hatecoachseats@gmail.com</b> once you've completed the credit card analysis form so we can discuss your goals and outline our next steps.</div>
                 </div>
-                <div className = "Steps">
+                <div className = "Steps" ref = {SecondRow}>
                     <h2 className = "Number">3.</h2>
                     <hr></hr>
                     <div className = "Info">If you have the right credit cards and enough points, I will help you book your next trip. If not, I will recommend which card to get and show you how to accumulate enough points for your future travels.</div>
