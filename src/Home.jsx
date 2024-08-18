@@ -33,7 +33,6 @@ export function Home(){
                         </section>
                     </div>
                     <div class="right-photo">
-
                     </div>
                 </div>
             </div>

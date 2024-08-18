@@ -51,12 +51,11 @@ hr{
     margin-top: 0.5rem;
 }
 
+
 .BigDraw div{
     background-color:#F0EFEB;
     margin: 0.5rem;
     border-radius: 25px;
-    width: 275px;  
-    height: 400px; 
     padding: 2rem; 
 }
 
@@ -90,7 +89,7 @@ hr{
 }
 
 .left-box {
-    flex: 1;
+    flex: 2;
     background-color: #B7B7A4; 
     padding: 2rem;
     border-radius: 25px;
