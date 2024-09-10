@@ -1,13 +1,14 @@
 import './Gallery.css'
 import ImageGallery from 'react-image-gallery'
 import 'react-image-gallery/styles/css/image-gallery.css';
+import family from './Images/FamilyFirstClass.png'
 
 export function Gallery()
 {
     const images = [
         {
-          original: "https://picsum.photos/id/1018/1000/600/",
-          thumbnail: "https://picsum.photos/id/1018/250/150/",
+          original: family,
+          thumbnail: family,
         },
         {
           original: "https://picsum.photos/id/1015/1000/600/",
@@ -25,8 +26,7 @@ export function Gallery()
                 <ImageGallery items={images}
                     showFullscreenButton={false}
                     showPlayButton={false}
-                    slideOnThumbnailOver={true}
-/>
+                    slideOnThumbnailOver={true}/>
             </div>
         </div>
     );

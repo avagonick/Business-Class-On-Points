@@ -30,10 +30,10 @@
     max-height: 100%; 
     max-width: 100%; 
     object-fit: contain; 
+    margin-bottom: 5%;
 }
 
 .image-gallery-slide-wrapper {
     height: 500px; 
     overflow: hidden; 
 }
-

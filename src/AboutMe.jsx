@@ -13,13 +13,11 @@ export function AboutMe() {
                             <h2 className="Intro">David Huy Pham</h2>
                             <p className="text"> <strong>contact</strong>: hatecoachseats@gmail.com </p>
                             <hr></hr>
-                            <p className="text">As an avid traveler, I’ve always been passionate about exploring the world with <strong>comfort and style</strong>. </p>
-                            <br></br>
-                            <p className="text"> <strong>My mission:</strong> <br></br>
-                                To help others discover how to fly first class for a fraction of the cost using 
-                                credit card rewards and smart travel strategies. I believe everyone deserves to experience the 
-                                luxury of premium travel without breaking the bank, 
-                                and I’m here to guide you on this journey. Let’s make your dream trip a reality together! </p>
+                            <p className="text"> After two decades of traveling, I realized that my body can no longer endure long-haul flights in coach. Over the past five years, I’ve explored countless strategies to secure flatbed seats for a fraction of the cost—or even for free. I've perfected the art of using frequent flyer miles and credit card points to book business or first class tickets without paying anything beyond taxes. <br></br> <br></br>
+
+                                I specialize in maximizing frequent flyer miles through airline loyalty programs, credit card bonuses, and strategic point transfers. My expertise allows you to transform everyday spending into luxurious flights.
+
+                                <br></br> <br></br> <strong>Not all credit cards are created equal</strong>. Some unlock exclusive benefits like airport lounges, priority boarding, and even business class seats. Let me guide you through this complex landscape. </p>
                         </div>
                                 
                  </div>

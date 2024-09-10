@@ -10,7 +10,7 @@ export function NavBar(){
             <ul id = "navBar"> 
                 <li><a href = "#For-Pad">Home</a></li>
                 <li><a href = "#GetStarted">Get Started</a></li>
-                <li><a href = "#AboutMe">About Me</a></li>
+                <li><a href = "#AboutMe">My Story</a></li>
                 <li><a href = "#Gallery">Gallery</a></li>
             </ul> 
         </div>
