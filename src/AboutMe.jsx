@@ -3,12 +3,13 @@ import headshot from './Images/Headshot.png';
 
 export function AboutMe() {
     return (
-        <div id="AboutMe">                           
+        <div id="AboutMe">                         
             <div class="split-container">
                   <div class="left-box">
                     <img src={headshot} id="headshot"/>
                  </div>
                  <div class="right-box">
+                        <section> 
                         <div className="HuyPham">
                             <h2 className="Intro">David Huy Pham</h2>
                             <p className="text"> <strong>contact</strong>: hatecoachseats@gmail.com </p>
@@ -19,6 +20,7 @@ export function AboutMe() {
 
                                 <br></br> <br></br> <strong>Not all credit cards are created equal</strong>. Some unlock exclusive benefits like airport lounges, priority boarding, and even business class seats. Let me guide you through this complex landscape. </p>
                         </div>
+                        </section>
                                 
                  </div>
             </div>

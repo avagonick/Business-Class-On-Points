@@ -84,3 +84,11 @@ hr{
 .left-box:hover {
     transform: scale(1.05); 
 }
+
+#StoryHeader{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: #283618;
+    text-align: right;
+    font-size: 2rem;
+}
