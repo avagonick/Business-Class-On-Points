@@ -34,7 +34,9 @@ export function Home(){
                         </section>
                     </div>
                     <div class="right-photo">
-                        <img src={image} id="photo"/>
+                        <div className="logoImage">
+                            <img src={image} id="photo"/>
+                        </div>
                     </div>
                 </div>
             </div>
