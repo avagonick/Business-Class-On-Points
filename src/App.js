@@ -5,7 +5,6 @@ import {GetStarted} from './GetStarted';
 import {Footer} from './Footer';
 import {AboutMe} from './AboutMe';
 import {Gallery} from './Gallery';
-import {Intro} from './Intro';
 
 function App() {
   return (
