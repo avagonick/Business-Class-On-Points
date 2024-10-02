@@ -9,7 +9,6 @@ export function NavBar(){
         <div id = {Toggled ? "MenuOn" : "MenuOff"}>
             <ul id = "navBar"> 
                 <li><a href = "#Home">Home</a></li>
-                <li><a href = "#For-Pad">Our Mission</a></li>
                 <li><a href = "#GetStarted">Get Started</a></li>
                 <li><a href = "#AboutMe">My Story</a></li>
                 <li><a href = "#Gallery">Gallery</a></li>

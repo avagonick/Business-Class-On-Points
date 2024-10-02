@@ -11,7 +11,7 @@ export function AboutMe() {
                  <div class="right-box">
                         <section> 
                         <div className="HuyPham">
-                            <h2 className="Intro">David Huy Pham</h2>
+                            <h2 className="Intro">David Pham</h2>
                             <p className="text"> <strong>contact</strong>: hatecoachseats@gmail.com </p>
                             <hr></hr>
                             <p className="text"> After two decades of traveling, I realized that my body can no longer endure long-haul flights in coach. Over the past five years, I’ve explored countless strategies to secure flatbed seats for a fraction of the cost—or even for free. I've perfected the art of using frequent flyer miles and credit card points to book business or first class tickets without paying anything beyond taxes. <br></br> <br></br>
