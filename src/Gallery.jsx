@@ -1,22 +1,29 @@
 import './Gallery.css'
 import ImageGallery from 'react-image-gallery'
 import 'react-image-gallery/styles/css/image-gallery.css';
-import family from './Images/FamilyFirstClass.png'
+import pic1 from './Images/pic1.JPG';
+import pic2 from './Images/pic2.JPG';
+import pic3 from './Images/pic3.JPG';
+import pic4 from './Images/pic4.JPG';
 
 export function Gallery()
 {
     const images = [
         {
-          original: family,
-          thumbnail: family,
+          original: pic1,
+          thumbnail: pic1,
         },
         {
-          original: "https://picsum.photos/id/1015/1000/600/",
-          thumbnail: "https://picsum.photos/id/1015/250/150/",
+          original: pic2,
+          thumbnail: pic2,
         },
         {
-          original: "https://picsum.photos/id/1019/1000/600/",
-          thumbnail: "https://picsum.photos/id/1019/250/150/",
+          original: pic3,
+          thumbnail: pic3,
+        },
+        {
+          original: pic4,
+          thumbnail: pic4,
         },
       ];
 
@@ -31,4 +38,3 @@ export function Gallery()
         </div>
     );
 }
-

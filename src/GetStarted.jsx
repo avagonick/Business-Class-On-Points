@@ -50,7 +50,7 @@ export function GetStarted(){
                     <h2 className = "Number">1.</h2>
                     <hr></hr>
                     <div className = "Info">Please fill out 
-                    <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> This Form </a> 
+                    <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> this form </a> 
                      to provide information on the types of credit cards you have.</div>
                 </div>
                 <div className = "Steps">
@@ -74,6 +74,9 @@ export function GetStarted(){
                     <div className = "Info">In six months, you’ll be enjoying the comfort of business class on your next trip.</div>
                 </div>
             </div>
+            </div>
+            <div className="formContainer">
+                <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> this form </a> 
             </div>
         </div>
         </>
