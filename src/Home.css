@@ -30,6 +30,8 @@
     padding-top: 4.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    overflow: visible;
+    flex-wrap: wrap;
 }
 
 .BigDraw p{
@@ -57,6 +59,9 @@ hr{
     margin: 0.5rem;
     border-radius: 25px;
     padding: 2rem; 
+    width: 19rem; /* Fixed width instead of max-width */
+    height: 20rem; /* Fixed height instead of max-height */
+    position: relative; /* Enables positioning adjustments for overlap */
 }
 
 @media screen and (max-width: 525px){
@@ -71,12 +76,15 @@ hr{
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        flex-wrap: wrap;
         text-align: center;
     }
 
     .BigDraw div{
         padding-bottom: 0.8rem;
+    }
+
+    .right-photo {
+        visibility: hidden; /* Hide the right photo but keep space occupied */
     }
 }
 
@@ -92,7 +100,8 @@ hr{
     flex: 2;
     background-color: #B7B7A4; 
     padding: 2rem;
-    border-radius: 25px;
+    border-radius: 25rem;
+    max-width: 66%; 
 }
 
 .right-photo {
@@ -106,7 +115,10 @@ hr{
 .split-container {
     display: flex;
     flex-direction: row; 
-    flex-wrap: wrap;
+
+    gap: 1rem;
+    align-items: stretch;
+    padding: 1rem;
 }
 
 .individualBox {
@@ -123,5 +135,5 @@ hr{
   max-width: 100rem;
   display: block;
   margin: 0 auto; 
-  border-radius: 15px; 
+  border-radius: 10rem; 
 }

@@ -98,3 +98,12 @@ hr{
     margin-top: 0.5rem;
 }
 
+.formContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem; 
+}
+
+.formBox {
+    background-color: #B7B7A4;
+}

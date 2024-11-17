@@ -5,15 +5,36 @@
     display: flex;
     justify-content: center; 
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .Slides {
-    max-width: 50%; 
+    max-width: 55%; 
     margin-top: 7rem; 
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .image-gallery-slide img {
     width: 100%; 
     height: auto; 
     object-fit: contain; 
+    padding: 2rem;
+}
+
+
+/* For tablets */
+@media (max-width: 768px) {
+    .Slides {
+        max-width: 90%; /* Adjust size for tablets */
+        margin-top: 5rem; /* Reduce margin on smaller screens */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .Slides {
+        max-width: 100%; /* Full width on small screens */
+        margin-top: 3rem; /* Reduce top margin further */
+    }
 }

@@ -76,7 +76,7 @@ export function GetStarted(){
             </div>
             </div>
             <div className="formContainer">
-                <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> this form </a> 
+                <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> interest form </a> 
             </div>
         </div>
         </>
