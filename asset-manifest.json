@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/BuisnessClassOnPoints.git/static/css/main.da5f523a.css",
-    "main.js": "/BuisnessClassOnPoints.git/static/js/main.773aa9af.js",
-    "static/js/453.efd9ec55.chunk.js": "/BuisnessClassOnPoints.git/static/js/453.efd9ec55.chunk.js",
-    "static/media/video.MP4": "/BuisnessClassOnPoints.git/static/media/video.52b87d3988656eb1d181.MP4",
-    "static/media/Headshot.png": "/BuisnessClassOnPoints.git/static/media/Headshot.d6f26995f43a87d27249.png",
-    "static/media/pic7.jpg": "/BuisnessClassOnPoints.git/static/media/pic7.83fcd71dc4b4bfee7ecf.jpg",
-    "static/media/pic4.JPG": "/BuisnessClassOnPoints.git/static/media/pic4.757045daa191f16cf61d.JPG",
-    "static/media/pic1.JPG": "/BuisnessClassOnPoints.git/static/media/pic1.f3346c856f87e52ab7b3.JPG",
-    "static/media/pic3.JPG": "/BuisnessClassOnPoints.git/static/media/pic3.7763565b464de81c462d.JPG",
-    "static/media/pic6.jpg": "/BuisnessClassOnPoints.git/static/media/pic6.d685cc56f93441c6f842.jpg",
-    "static/media/pic2.JPG": "/BuisnessClassOnPoints.git/static/media/pic2.a2940f1940ddc3cd9cca.JPG",
-    "static/media/pic5.jpg": "/BuisnessClassOnPoints.git/static/media/pic5.bd368e93e76ac4aab463.jpg",
-    "static/media/Logo.png": "/BuisnessClassOnPoints.git/static/media/Logo.6fe928f214168fa822d1.png",
-    "index.html": "/BuisnessClassOnPoints.git/index.html",
-    "main.da5f523a.css.map": "/BuisnessClassOnPoints.git/static/css/main.da5f523a.css.map",
-    "main.773aa9af.js.map": "/BuisnessClassOnPoints.git/static/js/main.773aa9af.js.map",
-    "453.efd9ec55.chunk.js.map": "/BuisnessClassOnPoints.git/static/js/453.efd9ec55.chunk.js.map"
+    "main.css": "/BuisnessClassOnPoints/static/css/main.da5f523a.css",
+    "main.js": "/BuisnessClassOnPoints/static/js/main.46550c36.js",
+    "static/js/453.efd9ec55.chunk.js": "/BuisnessClassOnPoints/static/js/453.efd9ec55.chunk.js",
+    "static/media/video.MP4": "/BuisnessClassOnPoints/static/media/video.52b87d3988656eb1d181.MP4",
+    "static/media/Headshot.png": "/BuisnessClassOnPoints/static/media/Headshot.d6f26995f43a87d27249.png",
+    "static/media/pic7.jpg": "/BuisnessClassOnPoints/static/media/pic7.83fcd71dc4b4bfee7ecf.jpg",
+    "static/media/pic4.JPG": "/BuisnessClassOnPoints/static/media/pic4.757045daa191f16cf61d.JPG",
+    "static/media/pic1.JPG": "/BuisnessClassOnPoints/static/media/pic1.f3346c856f87e52ab7b3.JPG",
+    "static/media/pic3.JPG": "/BuisnessClassOnPoints/static/media/pic3.7763565b464de81c462d.JPG",
+    "static/media/pic6.jpg": "/BuisnessClassOnPoints/static/media/pic6.d685cc56f93441c6f842.jpg",
+    "static/media/pic2.JPG": "/BuisnessClassOnPoints/static/media/pic2.a2940f1940ddc3cd9cca.JPG",
+    "static/media/pic5.jpg": "/BuisnessClassOnPoints/static/media/pic5.bd368e93e76ac4aab463.jpg",
+    "static/media/Logo.png": "/BuisnessClassOnPoints/static/media/Logo.6fe928f214168fa822d1.png",
+    "index.html": "/BuisnessClassOnPoints/index.html",
+    "main.da5f523a.css.map": "/BuisnessClassOnPoints/static/css/main.da5f523a.css.map",
+    "main.46550c36.js.map": "/BuisnessClassOnPoints/static/js/main.46550c36.js.map",
+    "453.efd9ec55.chunk.js.map": "/BuisnessClassOnPoints/static/js/453.efd9ec55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da5f523a.css",
-    "static/js/main.773aa9af.js"
+    "static/js/main.46550c36.js"
   ]
 }
