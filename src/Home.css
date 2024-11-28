@@ -2,18 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-#For-Pad{
+/* #For-Pad{
     padding-top: 12rem;
     background-color: #B7B7A4;
     padding-bottom: 8rem;
-}
+} */
 
 #Home{
-    padding-bottom: 2rem;
+    padding-top: 14rem;
+    padding-bottom: 7rem;
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-optical-sizing: auto;
     color: #283618;
+    background-color: #B7B7A4;
 }
 
 #Statement{
@@ -135,5 +137,5 @@ hr{
   max-width: 100rem;
   display: block;
   margin: 0 auto; 
-  border-radius: 10rem; 
+  border-radius: 2rem; 
 }
