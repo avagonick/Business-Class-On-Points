@@ -44,6 +44,11 @@ export function GetStarted(){
         <>
         <div id = "GetStarted">
             <h1 id = "StartedHeader">How To Get Started</h1>
+            <div className="formContainer" >
+                <div className ="form">
+                    <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> interest form </a> 
+                </div>
+            </div>
             <div id ="MobileStarted">
             <div className = "StartedContainer" id = "Top">
                 <div className = "Steps" ref = {TopRef}>
@@ -74,9 +79,6 @@ export function GetStarted(){
                     <div className = "Info">In six months, you’ll be enjoying the comfort of business class on your next trip.</div>
                 </div>
             </div>
-            </div>
-            <div className="formContainer">
-                <a href = "https://form.jotform.com/242305756247155" id = "form" target= "_blank"> this form </a> 
             </div>
         </div>
         </>
